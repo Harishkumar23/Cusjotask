@@ -1,0 +1,72 @@
+a.symbol {
+    background: #5e5ebd;
+    padding: 15px 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+a.symbol:hover {
+    background: #5e5ebd;
+    padding: 15px 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.mar-top {
+    margin-top: 25px;
+}
+button.bttn {
+    background: #39b448;
+    box-shadow: none;
+    margin-top: 35px;
+    padding: 10px 65px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    font-weight: 800;
+}
+.bttn > i:before {
+    border-right: 5px solid darkcyan;
+    margin-left: -5px;
+}
+.bttn > i:before, .bttn > i:after {
+    content: "";
+    position: absolute;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    bottom: 20px;
+    left: -19px;
+    right: auto;
+}
+.bttn > i {
+    cursor: text;
+    font: italic 90% Georgia;
+    /* background: floralwhite; */
+    background-clip: padding-box;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.5);
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+    position: absolute;
+    width: 271px;
+    height: 61px;
+    padding: 10px;
+    margin-left: 95px;
+    left: auto;
+    top: 29px;
+    /* margin-top: -8%; */
+    right: auto;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s linear;
+    -ms-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+    color: black;
+    font-size: 15px;
+}
+.bttn:hover > i {
+    visibility: visible;
+    opacity: 1;
+}
